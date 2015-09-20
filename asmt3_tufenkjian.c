@@ -36,10 +36,10 @@ void OPTION_1()
 	printf("Enter main memory size (words): ");
 	scanf("%d", &mem_size);
 
-    printf("Enter page size (words/page): ");
+	printf("Enter page size (words/page): ");
 	scanf("%d", &page_size);
 
-    printf("Enter replacement policy (0 = LRU, 1 = FIFO): ");
+	printf("Enter replacement policy (0 = LRU, 1 = FIFO): ");
 	scanf("%d", &policy);
 
     number_of_rows = mem_size / page_size;
